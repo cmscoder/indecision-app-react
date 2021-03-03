@@ -1,0 +1,37 @@
+{
+  "name": "indecision_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Camila Silva",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack",
+    "dev-server": "webpack-dev-server",
+    "start": "webpack serve --open"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "css-loader": "^5.0.1",
+    "live-server": "^1.2.1",
+    "normalize.css": "^8.0.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-modal": "^3.12.1",
+    "react-scripts": "^4.0.1",
+    "style-loader": "^2.0.0",
+    "validator": "8.0.0",
+    "webpack": "^5.16.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "keywords": [],
+  "description": ""
+}
